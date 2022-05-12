@@ -15,7 +15,7 @@ def isHikvision(line):
 res = open("results.txt","w")
 
 
-with open("080522_BELGOROD_SCAN.txt", encoding="utf-8") as ips:
+with open(".txt", encoding="utf-8") as ips:
     try:
         for line in ips:
             rhost = line.split("\t")[0]
